@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".SplashActivity" />
         <activity android:name=".PlanMainActivity" />
-        <activity android:name=".ModifyPlanActivity"></activity>
+        <activity android:name=".ModifyPlanActivity" />
+        <activity android:name=".PlanAddActivity"></activity>
     </application>
 
 </manifest>
