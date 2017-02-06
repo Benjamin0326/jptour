@@ -1,10 +1,12 @@
 package com.tour.android.jptour;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 /**
  * Created by sung9 on 2017-02-03.
@@ -31,6 +33,15 @@ public class PlanAddBottomAdapter extends RecyclerView.Adapter<PlanAddBottomAdap
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
+        final int pos = position;
+        ImageView.OnClickListener listener = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context , PlanAddDetailActivity.class);
+                context.startActivity(intent);
+            }
+        };
+        holder.btn_bottom.setOnClickListener(listener);
     }
 
     @Override
@@ -38,10 +49,12 @@ public class PlanAddBottomAdapter extends RecyclerView.Adapter<PlanAddBottomAdap
         return len;
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder {
+        private ImageView btn_bottom;
 
-        public ViewHolder(View view){
+        public ViewHolder(View view) {
             super(view);
+            btn_bottom = (ImageView) view.findViewById(R.id.add_bottom_item_btn);
         }
     }
 }

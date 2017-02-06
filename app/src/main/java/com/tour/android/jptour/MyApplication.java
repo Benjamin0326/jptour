@@ -15,5 +15,6 @@ public class MyApplication extends Application {
         Typekit.getInstance()
                 .addNormal(Typekit.createFromAsset(this, "Znikomit.otf"));
 
+
     }
 }

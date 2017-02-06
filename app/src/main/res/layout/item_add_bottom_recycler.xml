@@ -8,6 +8,7 @@
         android:layout_height="wrap_content"
         />
     <ImageView
+        android:id="@+id/add_bottom_item_btn"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:background="@android:color/darker_gray"/>
