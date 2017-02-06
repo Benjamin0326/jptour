@@ -3,42 +3,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="30dp"
-    android:background="@android:color/black"
+    android:background="@drawable/background_line"
     android:orientation="vertical">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                android:layout_margin="20dp"
                 android:text="TITLE"
-                android:textColor="@android:color/white"
-                android:textSize="30dp" />
+                android:textSize="40dp" />
 
             <ImageView
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
                 android:background="@android:color/darker_gray" />
 
             <TextView
                 android:id="@+id/plan_detail_tv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
+                android:layout_margin="30dp"
                 android:text="Test Text\nRecommand Place"
-                android:textColor="@android:color/white"
                 android:textSize="30sp" />
-        </LinearLayout>
-    </ScrollView>
 </LinearLayout>
