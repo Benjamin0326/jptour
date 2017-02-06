@@ -7,6 +7,8 @@
     android:orientation="vertical"
     tools:context="com.tour.android.jptour.PlanAddDetailActivity">
     <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
@@ -42,6 +44,8 @@
         </RelativeLayout>
     </LinearLayout>
     <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2.5"
@@ -54,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@android:color/black"
-            android:text="DETAIL TEXT\n\n\n\nTEST"/>
+            android:text="DETAIL TEXT\nTeslifhsldijf\neskhfskldjvhsldgv\nselfjsldihvlsdihb\nTEST"/>
     </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -62,8 +66,8 @@
         android:layout_weight="5.5">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
             android:layout_marginBottom="50dp"
             android:layout_height="match_parent"
             android:elevation="1dp"
@@ -71,7 +75,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scaleX="1.5"
+            android:scaleX="1.8"
             android:src="@drawable/temp"
             android:layout_marginTop="250dp"
             android:background="@android:color/transparent"
