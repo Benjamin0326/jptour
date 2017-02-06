@@ -1,14 +1,9 @@
 package com.tour.android.jptour;
 
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
-import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,11 +11,8 @@ import com.azoft.carousellayoutmanager.CarouselLayoutManager;
 import com.azoft.carousellayoutmanager.CarouselZoomPostLayoutListener;
 import com.azoft.carousellayoutmanager.CenterScrollListener;
 import com.synnapps.carouselview.CarouselView;
-import com.synnapps.carouselview.ViewListener;
 
-import org.w3c.dom.Text;
-
-public class ModifyPlanActivity extends AppCompatActivity {
+public class ModifyPlanActivity extends MainActivity {
 
     private String id;
     private TextView tv_title;

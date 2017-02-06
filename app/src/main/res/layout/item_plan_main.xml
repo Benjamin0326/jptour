@@ -7,7 +7,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:text="PLAN A"
+
         android:textAlignment="center"
         android:id="@+id/plan_main_item_btn"
-        android:textSize="40sp"/>
+        android:textSize="30sp"/>
+
 </LinearLayout>

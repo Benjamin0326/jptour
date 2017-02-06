@@ -1,18 +1,14 @@
 package com.tour.android.jptour;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.View;
 
 import com.azoft.carousellayoutmanager.CarouselLayoutManager;
 import com.azoft.carousellayoutmanager.CarouselZoomPostLayoutListener;
 import com.azoft.carousellayoutmanager.CenterScrollListener;
-import com.synnapps.carouselview.CarouselView;
-import com.synnapps.carouselview.ViewListener;
 
-public class PlanAddActivity extends AppCompatActivity {
+public class PlanAddActivity extends MainActivity {
 
     private RecyclerView topRecyclerView;
     private RecyclerView bottomRecyclerView;
