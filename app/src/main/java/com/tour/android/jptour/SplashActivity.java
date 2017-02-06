@@ -14,17 +14,19 @@ public class SplashActivity extends AppCompatActivity {
         Thread timer=new Thread()
         {
             public void run() {
-                try {
+                try{
                     sleep(2000);
-                } catch (InterruptedException e) {
+                } catch ( Exception e){
                     e.printStackTrace();
-                }
-                finally
-                {
-                    finish();
                 }
             }
         };
         timer.start();
+        try{
+            timer.join();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        finish();
     }
 }
