@@ -5,7 +5,7 @@
     android:id="@+id/activity_modify_plan"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/plan_modify"
+    android:background="@drawable/add"
     tools:context="com.tour.android.jptour.ModifyPlanActivity">
 
     <TextView
