@@ -1,25 +1,25 @@
 package com.tour.android.jptour;
 
+import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.helper.ItemTouchHelper;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
+
+import com.tsengvn.typekit.TypekitContextWrapper;
 
 public class MainActivity extends AppCompatActivity{
 
     private Intent splashIntent;
-    ImageButton plan_btn;
+    Button plan_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        plan_btn = (ImageButton) findViewById(R.id.main_plan_btn);
+        plan_btn = (Button) findViewById(R.id.main_plan_btn);
         plan_btn.setOnClickListener(listener);
         splashIntent = new Intent(this, SplashActivity.class);
         startActivity(splashIntent);
@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity{
             }
         }
     };
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(TypekitContextWrapper.wrap(newBase));
+    }
 }
