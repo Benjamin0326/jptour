@@ -5,8 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
     tools:context="com.tour.android.jptour.PlanAddDetailActivity">
     <LinearLayout
         android:layout_width="match_parent"
@@ -73,8 +71,10 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:scaleX="1.5"
             android:src="@drawable/temp"
             android:layout_marginTop="250dp"
+            android:background="@android:color/transparent"
             android:layout_alignParentBottom="true"/>
     </RelativeLayout>
 
