@@ -57,7 +57,8 @@ public class ModifyPlanActivity extends MainActivity {
                     startActivity(intent);
                 }
                 if(direction==4){
-                    Toast.makeText(ModifyPlanActivity.this, "Delete", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(ModifyPlanActivity.this, FinishActivity.class);
+                    startActivity(intent);
                 }
             }
         };

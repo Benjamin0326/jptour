@@ -20,7 +20,8 @@
         <activity android:name=".PlanMainActivity" />
         <activity android:name=".ModifyPlanActivity" />
         <activity android:name=".PlanAddActivity" />
-        <activity android:name=".PlanAddDetailActivity"></activity>
+        <activity android:name=".PlanAddDetailActivity" />
+        <activity android:name=".FinishActivity"></activity>
     </application>
 
 </manifest>
