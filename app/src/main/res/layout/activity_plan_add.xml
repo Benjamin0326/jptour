@@ -29,7 +29,7 @@
         android:id="@+id/plan_add_top_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="105">
+        android:layout_weight="140">
     </android.support.v7.widget.RecyclerView>
 
     <android.support.v7.widget.RecyclerView
