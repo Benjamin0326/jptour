@@ -6,13 +6,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.tour.android.jptour.PlanMainActivity">
-
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="150dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/plan_main_top"/>
     <android.support.v7.widget.RecyclerView
-        android:layout_margin="30dp"
         android:id="@+id/plan_main_recycler"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@drawable/plan_main">
     </android.support.v7.widget.RecyclerView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="right"
+        android:layout_marginLeft="250dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/plan_main_bottom"/>
 
 </LinearLayout>
