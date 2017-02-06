@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity{
         plan_btn = (Button) findViewById(R.id.main_plan_btn);
         plan_btn.setOnClickListener(listener);
         splashIntent = new Intent(this, SplashActivity.class);
-        startActivity(splashIntent);
+        //startActivity(splashIntent);
     }
 
     ImageButton.OnClickListener listener = new View.OnClickListener() {
