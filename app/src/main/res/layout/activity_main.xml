@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/main_test"
+    android:background="@drawable/main_test2"
     tools:context="com.tour.android.jptour.MainActivity">
     <ImageView
         android:layout_width="match_parent"
