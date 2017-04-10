@@ -17,8 +17,8 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:src="@drawable/plan_detail_eraser"/>
+            android:id="@+id/plan_add_detail_img1"
+            android:background="@android:color/transparent"/>
         <View
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -32,15 +32,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:layout_alignParentTop="true"
-                android:src="@drawable/plan_detail_pen"/>
+                android:id="@+id/plan_add_detail_img2"
+                android:layout_alignParentTop="true"/>
             <ImageView
                 android:layout_alignParentBottom="true"
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                android:src="@drawable/plan_detail_pencil"/>
+                android:id="@+id/plan_add_detail_img3"
+                android:background="@android:color/transparent"/>
         </RelativeLayout>
     </LinearLayout>
     <LinearLayout
@@ -76,7 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleX="1.8"
-            android:src="@drawable/temp"
+            android:id="@+id/plan_add_detail_img4"
             android:layout_marginTop="250dp"
             android:background="@android:color/transparent"
             android:layout_alignParentBottom="true"/>

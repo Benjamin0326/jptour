@@ -5,13 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/main_test2"
     tools:context="com.tour.android.jptour.MainActivity">
+
     <ImageView
         android:layout_width="match_parent"
         android:visibility="invisible"
         android:layout_height="100dp"
-        android:background="@drawable/main_top"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:id="@+id/imageView5"
@@ -20,7 +19,6 @@
     <ImageView
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:background="@drawable/main_pen"
         android:id="@+id/imageView4"
         android:layout_gravity="center"
         android:layout_weight="0.5"
@@ -48,7 +46,6 @@
     <ImageView
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:background="@drawable/main_pencil"
         android:layout_gravity="center"
         android:id="@+id/imageView3"
         android:layout_weight="0.5"
@@ -57,7 +54,6 @@
         android:visibility="invisible"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@drawable/main_bottom"
         android:id="@+id/imageView2"
         android:scaleType="fitXY"
         android:adjustViewBounds="true"

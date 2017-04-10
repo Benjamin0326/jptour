@@ -4,16 +4,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.azoft.carousellayoutmanager.CarouselLayoutManager;
 import com.azoft.carousellayoutmanager.CarouselZoomPostLayoutListener;
 import com.azoft.carousellayoutmanager.CenterScrollListener;
+import com.squareup.picasso.Callback;
+import com.squareup.picasso.Picasso;
 import com.synnapps.carouselview.CarouselView;
 
 public class ModifyPlanActivity extends MainActivity {
-
+    private RelativeLayout activity_modify_plan;
+    private ImageView img;
     private String id;
     private TextView tv_title;
     private CarouselView carouselView;
@@ -29,6 +34,19 @@ public class ModifyPlanActivity extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_modify_plan);
+        activity_modify_plan = (RelativeLayout) findViewById(R.id.activity_modify_plan);
+        img = new ImageView(this);
+        Picasso.with(this).load(R.drawable.add).into(img, new Callback() {
+            @Override
+            public void onSuccess() {
+                activity_modify_plan.setBackground(img.getDrawable());
+            }
+
+            @Override
+            public void onError() {
+
+            }
+        });
 
         Intent intent = new Intent(this.getIntent());
         id = intent.getStringExtra("id");
