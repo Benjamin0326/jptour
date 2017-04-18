@@ -1,5 +1,20 @@
 [
     {
+<<<<<<< HEAD
+=======
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\sung9\\.android\\build-cache\\df32899e94c848aa0879c4c862a495f25a3e3a02\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\Seo\\.android\\build-cache\\5014b29d5424ce6001893eb007f8893026e75a9b\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\sung9\\.android\\build-cache\\df32899e94c848aa0879c4c862a495f25a3e3a02\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+>>>>>>> 78fa0b5fc8da70065409b05bd9d9415c50a41ca8
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\Seo\\.android\\build-cache\\1efcdb50af2e8981d48fd1fb0aaa2c4ae384adf1\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },

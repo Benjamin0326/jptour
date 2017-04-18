@@ -8,32 +8,42 @@
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_plan_text.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_plan_text.png"
+=======
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_middle.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_middle.png"
+>>>>>>> 78fa0b5fc8da70065409b05bd9d9415c50a41ca8
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_top.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_top.png"
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\temp.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\temp.png"
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_bottom.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_bottom.png"
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_compus.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_compus.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_detail.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_vertical.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_vertical.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_rigth.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_rigth.png"
+=======
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main3.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main3.png"
+>>>>>>> 78fa0b5fc8da70065409b05bd9d9415c50a41ca8
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_compus.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_compus.png"
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main1.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main1.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_share_text.png",
@@ -52,6 +62,7 @@
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\floating_button.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\finish.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\finish.png"
     },
@@ -64,6 +75,8 @@
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\splash.png"
     },
     {
+=======
+>>>>>>> 78fa0b5fc8da70065409b05bd9d9415c50a41ca8
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_modify.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_modify.png"
     },
@@ -76,8 +89,12 @@
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail_pen.png"
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\temp.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\temp.png"
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\add.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\add.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\splash.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\splash.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\day.png",
@@ -86,6 +103,14 @@
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\floating_mypage.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\floating_mypage.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main4.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main4.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_bottom.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_bottom.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_middle.png",
@@ -104,6 +129,7 @@
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail_pencil.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_left.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_left.png"
     },
@@ -112,10 +138,13 @@
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add.png"
     },
     {
+=======
+>>>>>>> 78fa0b5fc8da70065409b05bd9d9415c50a41ca8
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\add.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\add.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\finish_top.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\finish_top.png"
     },
@@ -130,6 +159,18 @@
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+=======
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tmp.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\tmp.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_detail_eraser.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail_eraser.png"
+>>>>>>> 78fa0b5fc8da70065409b05bd9d9415c50a41ca8
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_pencil.png",
@@ -140,8 +181,121 @@
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_landscape.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tmp.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\tmp.png"
+=======
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_pencil.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_pencil.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_top.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_top.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_test2.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_test.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main4.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main4.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_top.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_top.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_detail.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main6.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main6.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_bottom.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_bottom.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main0.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main0.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_detail_pen.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail_pen.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_compus.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_compus.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main3.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main3.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_modify.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_modify.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main1.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main1.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\temp.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\temp.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main2.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main2.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main5.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main5.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_detail_pencil.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail_pencil.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_pen.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_pen.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_detail_eraser.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail_eraser.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_bottom.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_bottom.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_top.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_top.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main5.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main5.png"
+>>>>>>> 78fa0b5fc8da70065409b05bd9d9415c50a41ca8
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_top.png",
