@@ -1,0 +1,7 @@
+#Tue Apr 18 19:55:15 KST 2017
+base.0=C\:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fcd0879183934d501dc72d49f83be6efa71d8860
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fe30c7882a3056386b22fd2be4a8bd84ebb92b39\\classes.dex
+base.1=C\:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fe30c7882a3056386b22fd2be4a8bd84ebb92b39
+file.0=C\:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fcd0879183934d501dc72d49f83be6efa71d8860\\classes.dex
