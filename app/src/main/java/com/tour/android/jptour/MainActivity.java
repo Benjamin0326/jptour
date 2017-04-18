@@ -13,7 +13,7 @@ import com.tsengvn.typekit.TypekitContextWrapper;
 public class MainActivity extends AppCompatActivity{
 
     private Intent splashIntent;
-    Button plan_btn;
+    Button plan_btn, share_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity{
 
         plan_btn = (Button) findViewById(R.id.main_plan_btn);
         plan_btn.setOnClickListener(listener);
+        share_btn = (Button) findViewById(R.id.main_share_btn);
+        share_btn.setOnClickListener(listener);
         splashIntent = new Intent(this, SplashActivity.class);
         //startActivity(splashIntent);
     }
@@ -32,6 +34,10 @@ public class MainActivity extends AppCompatActivity{
             int id = view.getId();
             if(id==R.id.main_plan_btn){
                 Intent intent = new Intent(MainActivity.this, PlanMainActivity.class);
+                startActivity(intent);
+            }
+            if(id==R.id.main_share_btn){
+                Intent intent = new Intent(MainActivity.this, PickerActivity.class);
                 startActivity(intent);
             }
             //Toast.makeText(MainActivity.this,"test",Toast.LENGTH_SHORT).show();
