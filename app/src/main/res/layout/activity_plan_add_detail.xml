@@ -16,6 +16,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_weight="1"
+            android:src="@mipmap/plan_detail_eraser"
             android:layout_height="wrap_content"
             android:id="@+id/plan_add_detail_img1"
             android:background="@android:color/transparent"/>
@@ -33,6 +34,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:id="@+id/plan_add_detail_img2"
+                android:src="@mipmap/main_pen"
                 android:layout_alignParentTop="true"/>
             <ImageView
                 android:layout_alignParentBottom="true"
@@ -40,6 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/plan_add_detail_img3"
+                android:src="@mipmap/main_pencil"
                 android:background="@android:color/transparent"/>
         </RelativeLayout>
     </LinearLayout>

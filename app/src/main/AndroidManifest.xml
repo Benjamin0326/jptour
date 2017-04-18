@@ -3,6 +3,7 @@
     package="com.tour.android.jptour">
 
     <application
+        android:largeHeap="true"
         android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

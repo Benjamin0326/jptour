@@ -1,12 +1,10 @@
 package com.tour.android.jptour;
 
 import android.content.Context;
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 /**
@@ -25,7 +23,7 @@ public class PlanModifyAdapter extends RecyclerView.Adapter<PlanModifyAdapter.Vi
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_detail_plan, parent, false);
+        View v = LayoutInflater.from(context).inflate(R.layout.item_detail_plan, parent, false);
         ViewHolder holder = new ViewHolder(v);
         return holder;
     }
