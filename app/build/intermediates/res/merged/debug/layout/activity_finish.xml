@@ -4,6 +4,7 @@
     android:id="@+id/activity_finish"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/finish"
     tools:context="com.tour.android.jptour.FinishActivity">
 
     <android.support.v7.widget.RecyclerView

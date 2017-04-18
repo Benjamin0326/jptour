@@ -1,4 +1,4 @@
-#Tue Apr 18 19:55:14 KST 2017
+#Tue Apr 18 21:21:10 KST 2017
 base.0=C\:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
 renamed.0=classes.dex
 file.0=C\:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_test2"
+    android:background="@drawable/plan_modify"
     tools:context="com.tour.android.jptour.ModifyPlanActivity">
     <TextView
         android:layout_width="wrap_content"
@@ -17,7 +17,6 @@
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_margin="20dp"
-        android:background="@drawable/plan_main_middle"
         android:layout_height="match_parent"
         android:id="@+id/plan_modify_recycler">
     </android.support.v7.widget.RecyclerView>

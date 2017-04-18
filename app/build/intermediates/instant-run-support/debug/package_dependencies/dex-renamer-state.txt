@@ -1,4 +1,4 @@
-#Tue Apr 18 18:12:40 KST 2017
+#Tue Apr 18 20:34:52 KST 2017
 file.2=C\:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_02f975febac666466cf14a54ffba05a780c01449\\classes.dex
 base.2=C\:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_02f975febac666466cf14a54ffba05a780c01449
 file.1=C\:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_b66c2ba60138daf94f1b3afda2ca1a54239ea8bd\\classes.dex

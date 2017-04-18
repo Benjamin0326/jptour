@@ -12,7 +12,7 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        Typekit.getInstance().addNormal(Typekit.createFromAsset(this, "Znikomit.otf"));
+        Typekit.getInstance().addNormal(Typekit.createFromAsset(this, "NotoSans-Regular.ttf"));
 
 
     }
