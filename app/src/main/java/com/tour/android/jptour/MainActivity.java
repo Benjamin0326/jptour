@@ -8,12 +8,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.nightonke.boommenu.BoomButtons.SimpleCircleButton;
+import com.nightonke.boommenu.BoomMenuButton;
 import com.tsengvn.typekit.TypekitContextWrapper;
 
 public class MainActivity extends AppCompatActivity{
 
     private Intent splashIntent;
     Button plan_btn, share_btn;
+    BoomMenuButton bmb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,5 +55,5 @@ public class MainActivity extends AppCompatActivity{
         final float scale = this.getResources().getDisplayMetrics().density;
         return (int) (input * scale + 0.5f);
     }
+    
 }
-

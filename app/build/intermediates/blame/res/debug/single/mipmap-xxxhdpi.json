@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }

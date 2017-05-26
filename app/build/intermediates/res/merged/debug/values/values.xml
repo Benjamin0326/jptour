@@ -129,6 +129,16 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="default_bmb_autoHide">true</bool>
+    <bool name="default_bmb_backPressListened">true</bool>
+    <bool name="default_bmb_background_effect">true</bool>
+    <bool name="default_bmb_boomInWholeScreen">true</bool>
+    <bool name="default_bmb_cacheOptimization">true</bool>
+    <bool name="default_bmb_cancelable">true</bool>
+    <bool name="default_bmb_inFragment">false</bool>
+    <bool name="default_bmb_inList">false</bool>
+    <bool name="default_bmb_ripple_effect">true</bool>
+    <bool name="default_bmb_shadow_effect">true</bool>
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
@@ -141,6 +151,7 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="baseTextColor">#272F76</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -152,9 +163,19 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
+    <color name="default_bmb_dimColor">#55000000</color>
+    <color name="default_bmb_highlighted_color">#00000000</color>
+    <color name="default_bmb_normal_color">#FF4081</color>
+    <color name="default_bmb_shadow_color">#88757575</color>
+    <color name="default_bmb_shareLine1Color">#ffffffff</color>
+    <color name="default_bmb_shareLine2Color">#ffffffff</color>
+    <color name="default_bmb_unable_color">#00000000</color>
     <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
     <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_disabled">#aaa</color>
+    <color name="default_normal">#ff0099cc</color>
+    <color name="default_pressed">#ff33b5e5</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -240,6 +261,7 @@
     <declare-styleable name="ActionMenuView"/>
     <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/><attr format="reference" name="closeItemLayout"/></declare-styleable>
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
+    <declare-styleable name="AddFloatingActionButton"><attr format="color" name="fab_plusIconColor"/></declare-styleable>
     <declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="buttonPanelSideLayout"/><attr format="reference" name="listLayout"/><attr format="reference" name="multiChoiceItemLayout"/><attr format="reference" name="singleChoiceItemLayout"/><attr format="reference" name="listItemLayout"/><attr format="boolean" name="showTitle"/></declare-styleable>
     <declare-styleable name="AppBarLayout"><attr name="elevation"/><attr name="android:background"/><attr format="boolean" name="expanded"/></declare-styleable>
     <declare-styleable name="AppBarLayoutStates"><attr format="boolean" name="state_collapsed"/><attr format="boolean" name="state_collapsible"/></declare-styleable>
@@ -279,6 +301,316 @@
     <declare-styleable name="AppCompatTheme"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/><attr format="dimension|fraction" name="windowMinWidthMajor"/><attr format="dimension|fraction" name="windowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionOverflowMenuStyle"/><attr format="reference" name="actionBarPopupTheme"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarTheme"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize">
             <enum name="wrap_content" value="0"/>
         </attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearancePopupMenuHeader"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="imageButtonStyle"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="controlBackground"/><attr format="color" name="colorBackgroundFloating"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="ratingBarStyleIndicator"/><attr format="reference" name="ratingBarStyleSmall"/><attr format="reference" name="seekBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/><attr format="reference" name="listMenuViewStyle"/></declare-styleable>
+    <declare-styleable name="BoomMenuButton"><attr format="boolean|reference" name="bmb_cacheOptimization"/><attr format="boolean|reference" name="bmb_boomInWholeScreen"/><attr format="boolean|reference" name="bmb_inList"/><attr format="boolean|reference" name="bmb_inFragment"/><attr format="boolean|reference" name="bmb_backPressListened"/><attr format="boolean|reference" name="bmb_shadowEffect"/><attr format="dimension|reference" name="bmb_shadowRadius"/><attr format="color|reference" name="bmb_shadowColor"/><attr format="dimension|reference" name="bmb_shadowOffsetX"/><attr format="dimension|reference" name="bmb_shadowOffsetY"/><attr format="dimension|reference" name="bmb_buttonRadius"/><attr format="enum|reference" name="bmb_buttonEnum">
+            <enum name="simpleCircle" value="0"/>
+            <enum name="textInsideCircle" value="1"/>
+            <enum name="textOutsideCircle" value="2"/>
+            <enum name="ham" value="3"/>
+        </attr><attr format="boolean|reference" name="bmb_backgroundEffect"/><attr format="boolean|reference" name="bmb_rippleEffect"/><attr format="color|reference" name="bmb_normalColor"/><attr format="color|reference" name="bmb_highlightedColor"/><attr format="color|reference" name="bmb_unableColor"/><attr format="dimension|reference" name="bmb_dotRadius"/><attr format="dimension|reference" name="bmb_hamWidth"/><attr format="dimension|reference" name="bmb_hamHeight"/><attr format="dimension|reference" name="bmb_pieceCornerRadius"/><attr format="dimension|reference" name="bmb_pieceHorizontalMargin"/><attr format="dimension|reference" name="bmb_pieceVerticalMargin"/><attr format="dimension|reference" name="bmb_pieceInclinedMargin"/><attr format="enum|reference" name="bmb_piecePlaceEnum">
+            <enum name="piecePlace_dot_1" value="0"/>
+            <enum name="piecePlace_dot_2_1" value="1"/>
+            <enum name="piecePlace_dot_2_2" value="2"/>
+            <enum name="piecePlace_dot_3_1" value="3"/>
+            <enum name="piecePlace_dot_3_2" value="4"/>
+            <enum name="piecePlace_dot_3_3" value="5"/>
+            <enum name="piecePlace_dot_3_4" value="6"/>
+            <enum name="piecePlace_dot_4_1" value="7"/>
+            <enum name="piecePlace_dot_4_2" value="8"/>
+            <enum name="piecePlace_dot_5_1" value="9"/>
+            <enum name="piecePlace_dot_5_2" value="10"/>
+            <enum name="piecePlace_dot_5_3" value="11"/>
+            <enum name="piecePlace_dot_5_4" value="12"/>
+            <enum name="piecePlace_dot_6_1" value="13"/>
+            <enum name="piecePlace_dot_6_2" value="14"/>
+            <enum name="piecePlace_dot_6_3" value="15"/>
+            <enum name="piecePlace_dot_6_4" value="16"/>
+            <enum name="piecePlace_dot_6_5" value="17"/>
+            <enum name="piecePlace_dot_6_6" value="18"/>
+            <enum name="piecePlace_dot_7_1" value="19"/>
+            <enum name="piecePlace_dot_7_2" value="20"/>
+            <enum name="piecePlace_dot_7_3" value="21"/>
+            <enum name="piecePlace_dot_7_4" value="22"/>
+            <enum name="piecePlace_dot_7_5" value="23"/>
+            <enum name="piecePlace_dot_7_6" value="24"/>
+            <enum name="piecePlace_dot_8_1" value="25"/>
+            <enum name="piecePlace_dot_8_2" value="26"/>
+            <enum name="piecePlace_dot_8_3" value="27"/>
+            <enum name="piecePlace_dot_8_4" value="28"/>
+            <enum name="piecePlace_dot_8_5" value="29"/>
+            <enum name="piecePlace_dot_8_6" value="30"/>
+            <enum name="piecePlace_dot_8_7" value="31"/>
+            <enum name="piecePlace_dot_9_1" value="32"/>
+            <enum name="piecePlace_dot_9_2" value="33"/>
+            <enum name="piecePlace_dot_9_3" value="34"/>
+
+            <enum name="piecePlace_ham_1" value="35"/>
+            <enum name="piecePlace_ham_2" value="36"/>
+            <enum name="piecePlace_ham_3" value="37"/>
+            <enum name="piecePlace_ham_4" value="38"/>
+            <enum name="piecePlace_ham_5" value="39"/>
+            <enum name="piecePlace_ham_6" value="40"/>
+
+            <enum name="piecePlace_share" value="41"/>
+        </attr><attr format="dimension|reference" name="bmb_sharedLineLength"/><attr format="color|reference" name="bmb_shareLine1Color"/><attr format="color|reference" name="bmb_shareLine2Color"/><attr format="dimension|reference" name="bmb_shareLineWidth"/><attr format="color|reference" name="bmb_dimColor"/><attr format="integer|reference" name="bmb_showDuration"/><attr format="integer|reference" name="bmb_showDelay"/><attr format="integer|reference" name="bmb_hideDuration"/><attr format="integer|reference" name="bmb_hideDelay"/><attr format="boolean|reference" name="bmb_cancelable"/><attr format="boolean|reference" name="bmb_autoHide"/><attr format="enum|reference" name="bmb_orderEnum">
+            <enum name="orderDefault" value="0"/>
+            <enum name="orderReverse" value="1"/>
+            <enum name="orderRandom" value="2"/>
+        </attr><attr format="integer|reference" name="bmb_frames"/><attr format="enum|reference" name="bmb_boomEnum">
+            <enum name="boomLine" value="0"/>
+            <enum name="boomParabola_1" value="1"/>
+            <enum name="boomParabola_2" value="2"/>
+            <enum name="boomParabola_3" value="3"/>
+            <enum name="boomParabola_4" value="4"/>
+            <enum name="boomHorizontalThrow_1" value="5"/>
+            <enum name="boomHorizontalThrow_2" value="6"/>
+            <enum name="boomRandom" value="7"/>
+        </attr><attr format="enum|reference" name="bmb_showMoveEaseEnum">
+            <enum name="inSine" value="0"/>
+            <enum name="outSine" value="1"/>
+            <enum name="inOutSine" value="2"/>
+            <enum name="inQuad" value="3"/>
+            <enum name="outQuad" value="4"/>
+            <enum name="inOutQuad" value="5"/>
+            <enum name="inCubic" value="6"/>
+            <enum name="outCubic" value="7"/>
+            <enum name="inOutCubic" value="8"/>
+            <enum name="inQuart" value="9"/>
+            <enum name="outQuart" value="10"/>
+            <enum name="inOutQuart" value="11"/>
+            <enum name="inQuint" value="12"/>
+            <enum name="outQuint" value="13"/>
+            <enum name="inOutQuint" value="14"/>
+            <enum name="inExpo" value="15"/>
+            <enum name="outExpo" value="16"/>
+            <enum name="inOutExpo" value="17"/>
+            <enum name="inCirc" value="18"/>
+            <enum name="outCirc" value="19"/>
+            <enum name="inOutCirc" value="20"/>
+            <enum name="inBack" value="21"/>
+            <enum name="outBack" value="22"/>
+            <enum name="inOutBack" value="23"/>
+            <enum name="inElastic" value="24"/>
+            <enum name="outElastic" value="25"/>
+            <enum name="inOutElastic" value="26"/>
+            <enum name="inBounce" value="27"/>
+            <enum name="outBounce" value="28"/>
+            <enum name="inOutBounce" value="29"/>
+            <enum name="linear" value="30"/>
+        </attr><attr format="enum|reference" name="bmb_showScaleEaseEnum">
+            <enum name="inSine" value="0"/>
+            <enum name="outSine" value="1"/>
+            <enum name="inOutSine" value="2"/>
+            <enum name="inQuad" value="3"/>
+            <enum name="outQuad" value="4"/>
+            <enum name="inOutQuad" value="5"/>
+            <enum name="inCubic" value="6"/>
+            <enum name="outCubic" value="7"/>
+            <enum name="inOutCubic" value="8"/>
+            <enum name="inQuart" value="9"/>
+            <enum name="outQuart" value="10"/>
+            <enum name="inOutQuart" value="11"/>
+            <enum name="inQuint" value="12"/>
+            <enum name="outQuint" value="13"/>
+            <enum name="inOutQuint" value="14"/>
+            <enum name="inExpo" value="15"/>
+            <enum name="outExpo" value="16"/>
+            <enum name="inOutExpo" value="17"/>
+            <enum name="inCirc" value="18"/>
+            <enum name="outCirc" value="19"/>
+            <enum name="inOutCirc" value="20"/>
+            <enum name="inBack" value="21"/>
+            <enum name="outBack" value="22"/>
+            <enum name="inOutBack" value="23"/>
+            <enum name="inElastic" value="24"/>
+            <enum name="outElastic" value="25"/>
+            <enum name="inOutElastic" value="26"/>
+            <enum name="inBounce" value="27"/>
+            <enum name="outBounce" value="28"/>
+            <enum name="inOutBounce" value="29"/>
+            <enum name="linear" value="30"/>
+        </attr><attr format="enum|reference" name="bmb_showRotateEaseEnum">
+            <enum name="inSine" value="0"/>
+            <enum name="outSine" value="1"/>
+            <enum name="inOutSine" value="2"/>
+            <enum name="inQuad" value="3"/>
+            <enum name="outQuad" value="4"/>
+            <enum name="inOutQuad" value="5"/>
+            <enum name="inCubic" value="6"/>
+            <enum name="outCubic" value="7"/>
+            <enum name="inOutCubic" value="8"/>
+            <enum name="inQuart" value="9"/>
+            <enum name="outQuart" value="10"/>
+            <enum name="inOutQuart" value="11"/>
+            <enum name="inQuint" value="12"/>
+            <enum name="outQuint" value="13"/>
+            <enum name="inOutQuint" value="14"/>
+            <enum name="inExpo" value="15"/>
+            <enum name="outExpo" value="16"/>
+            <enum name="inOutExpo" value="17"/>
+            <enum name="inCirc" value="18"/>
+            <enum name="outCirc" value="19"/>
+            <enum name="inOutCirc" value="20"/>
+            <enum name="inBack" value="21"/>
+            <enum name="outBack" value="22"/>
+            <enum name="inOutBack" value="23"/>
+            <enum name="inElastic" value="24"/>
+            <enum name="outElastic" value="25"/>
+            <enum name="inOutElastic" value="26"/>
+            <enum name="inBounce" value="27"/>
+            <enum name="outBounce" value="28"/>
+            <enum name="inOutBounce" value="29"/>
+            <enum name="linear" value="30"/>
+        </attr><attr format="enum|reference" name="bmb_hideMoveEaseEnum">
+            <enum name="inSine" value="0"/>
+            <enum name="outSine" value="1"/>
+            <enum name="inOutSine" value="2"/>
+            <enum name="inQuad" value="3"/>
+            <enum name="outQuad" value="4"/>
+            <enum name="inOutQuad" value="5"/>
+            <enum name="inCubic" value="6"/>
+            <enum name="outCubic" value="7"/>
+            <enum name="inOutCubic" value="8"/>
+            <enum name="inQuart" value="9"/>
+            <enum name="outQuart" value="10"/>
+            <enum name="inOutQuart" value="11"/>
+            <enum name="inQuint" value="12"/>
+            <enum name="outQuint" value="13"/>
+            <enum name="inOutQuint" value="14"/>
+            <enum name="inExpo" value="15"/>
+            <enum name="outExpo" value="16"/>
+            <enum name="inOutExpo" value="17"/>
+            <enum name="inCirc" value="18"/>
+            <enum name="outCirc" value="19"/>
+            <enum name="inOutCirc" value="20"/>
+            <enum name="inBack" value="21"/>
+            <enum name="outBack" value="22"/>
+            <enum name="inOutBack" value="23"/>
+            <enum name="inElastic" value="24"/>
+            <enum name="outElastic" value="25"/>
+            <enum name="inOutElastic" value="26"/>
+            <enum name="inBounce" value="27"/>
+            <enum name="outBounce" value="28"/>
+            <enum name="inOutBounce" value="29"/>
+            <enum name="linear" value="30"/>
+        </attr><attr format="enum|reference" name="bmb_hideScaleEaseEnum">
+            <enum name="inSine" value="0"/>
+            <enum name="outSine" value="1"/>
+            <enum name="inOutSine" value="2"/>
+            <enum name="inQuad" value="3"/>
+            <enum name="outQuad" value="4"/>
+            <enum name="inOutQuad" value="5"/>
+            <enum name="inCubic" value="6"/>
+            <enum name="outCubic" value="7"/>
+            <enum name="inOutCubic" value="8"/>
+            <enum name="inQuart" value="9"/>
+            <enum name="outQuart" value="10"/>
+            <enum name="inOutQuart" value="11"/>
+            <enum name="inQuint" value="12"/>
+            <enum name="outQuint" value="13"/>
+            <enum name="inOutQuint" value="14"/>
+            <enum name="inExpo" value="15"/>
+            <enum name="outExpo" value="16"/>
+            <enum name="inOutExpo" value="17"/>
+            <enum name="inCirc" value="18"/>
+            <enum name="outCirc" value="19"/>
+            <enum name="inOutCirc" value="20"/>
+            <enum name="inBack" value="21"/>
+            <enum name="outBack" value="22"/>
+            <enum name="inOutBack" value="23"/>
+            <enum name="inElastic" value="24"/>
+            <enum name="outElastic" value="25"/>
+            <enum name="inOutElastic" value="26"/>
+            <enum name="inBounce" value="27"/>
+            <enum name="outBounce" value="28"/>
+            <enum name="inOutBounce" value="29"/>
+            <enum name="linear" value="30"/>
+        </attr><attr format="enum|reference" name="bmb_hideRotateEaseEnum">
+            <enum name="inSine" value="0"/>
+            <enum name="outSine" value="1"/>
+            <enum name="inOutSine" value="2"/>
+            <enum name="inQuad" value="3"/>
+            <enum name="outQuad" value="4"/>
+            <enum name="inOutQuad" value="5"/>
+            <enum name="inCubic" value="6"/>
+            <enum name="outCubic" value="7"/>
+            <enum name="inOutCubic" value="8"/>
+            <enum name="inQuart" value="9"/>
+            <enum name="outQuart" value="10"/>
+            <enum name="inOutQuart" value="11"/>
+            <enum name="inQuint" value="12"/>
+            <enum name="outQuint" value="13"/>
+            <enum name="inOutQuint" value="14"/>
+            <enum name="inExpo" value="15"/>
+            <enum name="outExpo" value="16"/>
+            <enum name="inOutExpo" value="17"/>
+            <enum name="inCirc" value="18"/>
+            <enum name="outCirc" value="19"/>
+            <enum name="inOutCirc" value="20"/>
+            <enum name="inBack" value="21"/>
+            <enum name="outBack" value="22"/>
+            <enum name="inOutBack" value="23"/>
+            <enum name="inElastic" value="24"/>
+            <enum name="outElastic" value="25"/>
+            <enum name="inOutElastic" value="26"/>
+            <enum name="inBounce" value="27"/>
+            <enum name="outBounce" value="28"/>
+            <enum name="inOutBounce" value="29"/>
+            <enum name="linear" value="30"/>
+        </attr><attr format="integer|reference" name="bmb_rotateDegree"/><attr format="enum|reference" name="bmb_buttonPlaceEnum">
+            <enum name="buttonPlace_sc_1" value="0"/>
+            <enum name="buttonPlace_sc_2_1" value="1"/>
+            <enum name="buttonPlace_sc_2_2" value="2"/>
+            <enum name="buttonPlace_sc_3_1" value="3"/>
+            <enum name="buttonPlace_sc_3_2" value="4"/>
+            <enum name="buttonPlace_sc_3_3" value="5"/>
+            <enum name="buttonPlace_sc_3_4" value="6"/>
+            <enum name="buttonPlace_sc_4_1" value="7"/>
+            <enum name="buttonPlace_sc_4_2" value="8"/>
+            <enum name="buttonPlace_sc_5_1" value="9"/>
+            <enum name="buttonPlace_sc_5_2" value="10"/>
+            <enum name="buttonPlace_sc_5_3" value="11"/>
+            <enum name="buttonPlace_sc_5_4" value="12"/>
+            <enum name="buttonPlace_sc_6_1" value="13"/>
+            <enum name="buttonPlace_sc_6_2" value="14"/>
+            <enum name="buttonPlace_sc_6_3" value="15"/>
+            <enum name="buttonPlace_sc_6_4" value="16"/>
+            <enum name="buttonPlace_sc_6_5" value="17"/>
+            <enum name="buttonPlace_sc_6_6" value="18"/>
+            <enum name="buttonPlace_sc_7_1" value="19"/>
+            <enum name="buttonPlace_sc_7_2" value="20"/>
+            <enum name="buttonPlace_sc_7_3" value="21"/>
+            <enum name="buttonPlace_sc_7_4" value="22"/>
+            <enum name="buttonPlace_sc_7_5" value="23"/>
+            <enum name="buttonPlace_sc_7_6" value="24"/>
+            <enum name="buttonPlace_sc_8_1" value="25"/>
+            <enum name="buttonPlace_sc_8_2" value="26"/>
+            <enum name="buttonPlace_sc_8_3" value="27"/>
+            <enum name="buttonPlace_sc_8_4" value="28"/>
+            <enum name="buttonPlace_sc_8_5" value="29"/>
+            <enum name="buttonPlace_sc_8_6" value="30"/>
+            <enum name="buttonPlace_sc_8_7" value="31"/>
+            <enum name="buttonPlace_sc_9_1" value="32"/>
+            <enum name="buttonPlace_sc_9_2" value="33"/>
+            <enum name="buttonPlace_sc_9_3" value="34"/>
+            <enum name="buttonPlace_ham_1" value="35"/>
+            <enum name="buttonPlace_ham_2" value="36"/>
+            <enum name="buttonPlace_ham_3" value="37"/>
+            <enum name="buttonPlace_ham_4" value="38"/>
+            <enum name="buttonPlace_ham_5" value="39"/>
+            <enum name="buttonPlace_ham_6" value="40"/>
+            <enum name="buttonPlace_horizontal" value="41"/>
+            <enum name="buttonPlace_vertical" value="42"/>
+        </attr><attr format="enum|reference" name="bmb_buttonPlaceAlignmentEnum">
+            <enum name="buttonPlaceAlignment_center" value="0"/>
+            <enum name="buttonPlaceAlignment_top" value="1"/>
+            <enum name="buttonPlaceAlignment_bottom" value="2"/>
+            <enum name="buttonPlaceAlignment_left" value="3"/>
+            <enum name="buttonPlaceAlignment_right" value="4"/>
+            <enum name="buttonPlaceAlignment_tl" value="5"/>
+            <enum name="buttonPlaceAlignment_tr" value="6"/>
+            <enum name="buttonPlaceAlignment_bl" value="7"/>
+            <enum name="buttonPlaceAlignment_br" value="8"/>
+        </attr><attr format="dimension|reference" name="bmb_buttonHorizontalMargin"/><attr format="dimension|reference" name="bmb_buttonVerticalMargin"/><attr format="dimension|reference" name="bmb_buttonInclinedMargin"/><attr format="dimension|reference" name="bmb_buttonTopMargin"/><attr format="dimension|reference" name="bmb_buttonBottomMargin"/><attr format="dimension|reference" name="bmb_buttonLeftMargin"/><attr format="dimension|reference" name="bmb_buttonRightMargin"/><attr format="dimension|reference" name="bmb_bottomHamButtonTopMargin"/></declare-styleable>
     <declare-styleable name="BottomNavigationView"><attr name="menu"/><attr name="itemIconTint"/><attr name="itemTextColor"/><attr name="itemBackground"/><attr name="elevation"/></declare-styleable>
     <declare-styleable name="BottomSheetBehavior_Layout"><attr format="dimension" name="behavior_peekHeight">
             
@@ -418,7 +750,7 @@
         </attr></declare-styleable>
     <declare-styleable name="DesignTheme"><attr format="reference" name="bottomSheetDialogTheme"/><attr format="reference" name="bottomSheetStyle"/><attr format="color" name="textColorError"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
-    <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize">
+    <declare-styleable name="FloatingActionButton"><attr format="color" name="fab_colorPressed"/><attr format="color" name="fab_colorDisabled"/><attr format="color" name="fab_colorNormal"/><attr format="reference" name="fab_icon"/><attr format="enum" name="fab_size"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="string" name="fab_title"/><attr format="boolean" name="fab_stroke_visible"/><attr format="color" name="fab_colorRipple"/><attr format="boolean" name="fab_showShadow"/><attr format="color" name="fab_shadowColor"/><attr format="dimension" name="fab_shadowRadius"/><attr format="dimension" name="fab_shadowXOffset"/><attr format="dimension" name="fab_shadowYOffset"/><attr format="reference" name="fab_showAnimation"/><attr format="reference" name="fab_hideAnimation"/><attr format="string" name="fab_label"/><attr format="dimension" name="fab_elevationCompat"/><attr format="color" name="fab_progress_color"/><attr format="color" name="fab_progress_backgroundColor"/><attr format="boolean" name="fab_progress_indeterminate"/><attr format="integer" name="fab_progress_max"/><attr format="integer" name="fab_progress"/><attr format="boolean" name="fab_progress_showBackground"/><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize">
             
             <enum name="auto" value="-1"/>
             
@@ -427,6 +759,8 @@
             <enum name="mini" value="1"/>
         </attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/></declare-styleable>
     <declare-styleable name="FloatingActionButton_Behavior_Layout"><attr format="boolean" name="behavior_autoHide"/></declare-styleable>
+    <declare-styleable name="FloatingActionMenu"><attr format="boolean" name="menu_showShadow"/><attr format="dimension" name="menu_buttonSpacing"/><attr format="dimension" name="menu_labels_margin"/><attr format="reference" name="menu_labels_showAnimation"/><attr format="reference" name="menu_labels_hideAnimation"/><attr format="dimension" name="menu_labels_paddingTop"/><attr format="dimension" name="menu_labels_paddingLeft"/><attr format="dimension" name="menu_labels_paddingRight"/><attr format="dimension" name="menu_labels_paddingBottom"/><attr format="dimension" name="menu_labels_padding"/><attr format="reference|color" name="menu_labels_textColor"/><attr format="dimension" name="menu_labels_textSize"/><attr format="dimension" name="menu_labels_cornerRadius"/><attr format="boolean" name="menu_labels_showShadow"/><attr format="color" name="menu_labels_colorNormal"/><attr format="color" name="menu_labels_colorPressed"/><attr format="color" name="menu_labels_colorRipple"/><attr format="enum" name="menu_labels_position"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="menu_icon"/><attr format="integer" name="menu_animationDelayPerItem"/><attr format="reference" name="menu_buttonToggleAnimation"/><attr format="boolean" name="menu_labels_singleLine"/><attr format="enum" name="menu_labels_ellipsize"><enum name="none" value="0"/><enum name="start" value="1"/><enum name="middle" value="2"/><enum name="end" value="3"/><enum name="marquee" value="4"/></attr><attr format="integer" name="menu_labels_maxLines"/><attr format="enum" name="menu_fab_size"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="reference" name="menu_labels_style"/><attr format="string" name="menu_labels_customFont"/><attr format="color" name="menu_shadowColor"/><attr format="dimension" name="menu_shadowRadius"/><attr format="dimension" name="menu_shadowXOffset"/><attr format="dimension" name="menu_shadowYOffset"/><attr format="color" name="menu_colorNormal"/><attr format="color" name="menu_colorPressed"/><attr format="color" name="menu_colorRipple"/><attr format="enum" name="menu_openDirection"><enum name="up" value="0"/><enum name="down" value="1"/></attr><attr format="color" name="menu_backgroundColor"/><attr format="string" name="menu_fab_label"/><attr format="reference" name="menu_fab_show_animation"/><attr format="reference" name="menu_fab_hide_animation"/></declare-styleable>
+    <declare-styleable name="FloatingActionsMenu"><attr format="color" name="fab_addButtonColorPressed"/><attr format="color" name="fab_addButtonColorNormal"/><attr format="enum" name="fab_addButtonSize"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="color" name="fab_addButtonPlusIconColor"/><attr format="boolean" name="fab_addButtonStrokeVisible"/><attr format="reference" name="fab_labelStyle"/><attr format="enum" name="fab_labelsPosition"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="enum" name="fab_expandDirection"><enum name="up" value="0"/><enum name="down" value="1"/><enum name="left" value="2"/><enum name="right" value="3"/></attr></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
     <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers">
@@ -607,6 +941,35 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_bmb_bottomHamButtonTopMargin">0dp</dimen>
+    <dimen name="default_bmb_buttonBottomMargin">30dp</dimen>
+    <dimen name="default_bmb_buttonHorizontalMargin">20dp</dimen>
+    <dimen name="default_bmb_buttonInclinedMargin">20dp</dimen>
+    <dimen name="default_bmb_buttonLeftMargin">30dp</dimen>
+    <dimen name="default_bmb_buttonRightMargin">30dp</dimen>
+    <dimen name="default_bmb_buttonTopMargin">30dp</dimen>
+    <dimen name="default_bmb_buttonVerticalMargin">25dp</dimen>
+    <dimen name="default_bmb_button_radius">28dp</dimen>
+    <dimen name="default_bmb_dotRadius">3dp</dimen>
+    <dimen name="default_bmb_hamHeight">3dp</dimen>
+    <dimen name="default_bmb_hamWidth">20dp</dimen>
+    <dimen name="default_bmb_ham_button_height">60dp</dimen>
+    <dimen name="default_bmb_ham_button_width">300dp</dimen>
+    <dimen name="default_bmb_pieceCornerRadius">-1dp</dimen>
+    <dimen name="default_bmb_pieceHorizontalMargin">2.5dp</dimen>
+    <dimen name="default_bmb_pieceInclinedMargin">3.535533905932738dp</dimen>
+    <dimen name="default_bmb_pieceVerticalMargin">2.5dp</dimen>
+    <dimen name="default_bmb_shadow_offset_x">0dp</dimen>
+    <dimen name="default_bmb_shadow_offset_y">3dp</dimen>
+    <dimen name="default_bmb_shadow_radius">8dp</dimen>
+    <dimen name="default_bmb_shareLineWidth">1.5dp</dimen>
+    <dimen name="default_bmb_sharedLineLength">18dp</dimen>
+    <dimen name="default_bmb_simple_circle_height">80dp</dimen>
+    <dimen name="default_bmb_simple_circle_width">80dp</dimen>
+    <dimen name="default_bmb_text_inside_circle_height">80dp</dimen>
+    <dimen name="default_bmb_text_inside_circle_width">80dp</dimen>
+    <dimen name="default_bmb_text_outside_circle_height">80dp</dimen>
+    <dimen name="default_bmb_text_outside_circle_width">80dp</dimen>
     <dimen name="default_circle_indicator_radius">3dp</dimen>
     <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
     <dimen name="default_indicator_margin_horizontal">10dp</dimen>
@@ -651,6 +1014,16 @@
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_stroke_width">1dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -661,6 +1034,7 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="labels_text_size">14sp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
     <dimen name="notification_big_circle_margin">12dp</dimen>
@@ -682,6 +1056,8 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="fab_expand_menu_button" type="id"/>
+    <item name="fab_label" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="progress_circular" type="id"/>
@@ -698,6 +1074,24 @@
     <integer name="app_bar_elevation_anim_duration">150</integer>
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="default_bmb_boomEnum">6</integer>
+    <integer name="default_bmb_buttonPlaceAlignmentEnum">0</integer>
+    <integer name="default_bmb_buttonPlaceEnum">-1</integer>
+    <integer name="default_bmb_button_enum">-1</integer>
+    <integer name="default_bmb_frames">60</integer>
+    <integer name="default_bmb_hideDelay">50</integer>
+    <integer name="default_bmb_hideDuration">300</integer>
+    <integer name="default_bmb_hideMoveEaseEnum">21</integer>
+    <integer name="default_bmb_hideRotateEaseEnum">21</integer>
+    <integer name="default_bmb_hideScaleEaseEnum">21</integer>
+    <integer name="default_bmb_orderEnum">2</integer>
+    <integer name="default_bmb_pieceEnum">-1</integer>
+    <integer name="default_bmb_rotateDegree">720</integer>
+    <integer name="default_bmb_showDelay">50</integer>
+    <integer name="default_bmb_showDuration">300</integer>
+    <integer name="default_bmb_showMoveEaseEnum">22</integer>
+    <integer name="default_bmb_showRotateEaseEnum">22</integer>
+    <integer name="default_bmb_showScaleEaseEnum">22</integer>
     <integer name="default_circle_indicator_orientation">0</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="hide_password_duration">320</integer>

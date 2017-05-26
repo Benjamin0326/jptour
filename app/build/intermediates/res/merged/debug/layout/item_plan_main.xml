@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <Button
-        android:layout_gravity="center_horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="15dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="75dp"
-        android:layout_marginLeft="75dp"
-        android:text="PLAN A"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp">
 
-        android:textAlignment="center"
+    <ImageButton
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plan_main_suitcase"
+        android:background="@android:color/transparent"
         android:id="@+id/plan_main_item_btn"
-        android:textSize="30sp"/>
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        android:id="@+id/plan_main_item_text"
+        android:text="PLAN A"
+        android:textSize="30dp"
+        android:textColor="@color/baseTextColor"
+        />
 
 </LinearLayout>
