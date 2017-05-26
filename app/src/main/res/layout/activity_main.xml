@@ -51,31 +51,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:fab_icon="@drawable/floating_button"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
         android:layout_gravity="right|bottom"
         app:fab_expandDirection="left">
 
         <net.i2p.android.ext.floatingactionbutton.FloatingActionButton
             app:fab_addButtonSize="mini"
             app:fab_icon="@drawable/floating_setting"
+            app:theme="@drawable/floating_setting"
+            android:src="@drawable/floating_setting"
             app:fab_title="Call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <net.i2p.android.ext.floatingactionbutton.FloatingActionButton
             app:fab_addButtonSize="mini"
-            app:fab_background="@drawable/floating_mypage"
+            app:fab_icon="@drawable/floating_mypage"
+            app:theme="@drawable/floating_mypage"
+            android:src="@drawable/floating_mypage"
             app:fab_title="Call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <net.i2p.android.ext.floatingactionbutton.FloatingActionButton
             app:fab_addButtonSize="mini"
-            app:fab_background="@drawable/floating_home"
+            app:fab_icon="@drawable/floating_home"
+            app:theme="@drawable/floating_home"
+            android:src="@drawable/floating_home"
             app:fab_title="Call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <net.i2p.android.ext.floatingactionbutton.FloatingActionButton
             app:fab_addButtonSize="mini"
-            app:fab_background="@drawable/floating_plan"
+            app:fab_icon="@drawable/floating_plan"
+            app:theme="@drawable/floating_plan"
             app:fab_title="Call"
+            android:src="@drawable/floating_plan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu>

@@ -16,12 +16,12 @@
         "source": "C:\\Users\\sung9\\.android\\build-cache\\7920b4459d2e075a173490104e187d3fe9ec5b7b\\output\\res\\layout\\bmb_text_inside_circle_button.xml"
     },
     {
-        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\sung9\\.android\\build-cache\\ae418758534a6d07ca4c73433e7981adae9dc4c6\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Users\\sung9\\.android\\build-cache\\df32899e94c848aa0879c4c862a495f25a3e3a02\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\sung9\\.android\\build-cache\\ae418758534a6d07ca4c73433e7981adae9dc4c6\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
