@@ -1,23 +1,23 @@
 [
     {
-        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add.png",
-        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add.png"
-    },
-    {
         "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_middle.png",
         "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_middle.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add.png"
     },
     {
         "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_detail.png",
         "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail.png"
     },
     {
-        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\day.png",
-        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\day.png"
-    },
-    {
         "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_left.png",
         "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_left.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\day.png",
+        "source": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\day.png"
     },
     {
         "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\finish.png",

@@ -55,5 +55,4 @@ public class MainActivity extends AppCompatActivity{
         final float scale = this.getResources().getDisplayMetrics().density;
         return (int) (input * scale + 0.5f);
     }
-    
 }

@@ -36,12 +36,12 @@
         "source": "C:\\Users\\sung9\\.android\\build-cache\\ae418758534a6d07ca4c73433e7981adae9dc4c6\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\design_ic_visibility_off.png",
-        "source": "C:\\Users\\sung9\\.android\\build-cache\\df32899e94c848aa0879c4c862a495f25a3e3a02\\output\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
-    },
-    {
         "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png",
         "source": "C:\\Users\\sung9\\.android\\build-cache\\ae418758534a6d07ca4c73433e7981adae9dc4c6\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\sung9\\.android\\build-cache\\df32899e94c848aa0879c4c862a495f25a3e3a02\\output\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "C:\\Users\\sung9\\AndroidStudioProjects\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
