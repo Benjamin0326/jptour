@@ -18,8 +18,6 @@ public class PlanMainActivity extends MainActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plan_main);
         activity_plan_main = (LinearLayout)findViewById(R.id.activity_plan_main);
-        plan_main_img1 = (ImageView) findViewById(R.id.plan_main_img1);
-        plan_main_img2 = (ImageView) findViewById(R.id.plan_main_img2);
         recyclerView = (RecyclerView) findViewById(R.id.plan_main_recycler);
         img = new ImageView(this);
         img1 = new ImageView(this);

@@ -8,7 +8,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/plan_main_suitcase"
+        android:src="@drawable/suitcase"
         android:background="@android:color/transparent"
         android:id="@+id/plan_main_item_btn"
 
@@ -16,7 +16,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:background="@drawable/suitcase_shadow"
+        android:layout_gravity="center"
         android:includeFontPadding="false"
         android:textAlignment="center"
         android:id="@+id/plan_main_item_text"

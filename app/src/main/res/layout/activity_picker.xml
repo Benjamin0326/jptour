@@ -5,43 +5,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginLeft="100dp"
-    android:layout_marginRight="100dp"
+    android:background="@drawable/daypicker_backround"
     tools:context="com.tour.android.jptour.PickerActivity">
 
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:visibility="invisible"
-        android:layout_weight="1"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            android:layout_weight="1"/>
 
-    <NumberPicker
-        android:id="@+id/picker_night"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:solidColor="@android:color/white"
-        android:layout_weight="2.5"></NumberPicker>
+        <NumberPicker
+            android:id="@+id/picker_night"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:solidColor="@android:color/white"
+            android:layout_weight="2.5"></NumberPicker>
 
-    <NumberPicker
-        android:id="@+id/picker_day"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:background="@android:color/transparent"
-        android:solidColor="@android:color/white"
-        android:layout_weight="2.5"></NumberPicker>
+        <NumberPicker
+            android:id="@+id/picker_day"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:solidColor="@android:color/white"
+            android:layout_weight="2.5"></NumberPicker>
 
-    <NumberPicker
-        android:id="@+id/picker_city"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:background="@android:color/transparent"
-        android:solidColor="@android:color/white"
-        android:layout_weight="2.5"></NumberPicker>
+        <NumberPicker
+            android:id="@+id/picker_city"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:solidColor="@android:color/white"
+            android:layout_weight="2.5"></NumberPicker>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:visibility="invisible"
-        android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
 </LinearLayout>

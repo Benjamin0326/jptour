@@ -13,7 +13,7 @@ public class MyApplication extends Application {
         super.onCreate();
 
         Typekit.getInstance().addNormal(Typekit.createFromAsset(this, "NotoSans-Regular.ttf"));
-
+        Typekit.getInstance().addBold(Typekit.createFromAsset(this, "Porter-Bold.ttf"));
 
     }
 }

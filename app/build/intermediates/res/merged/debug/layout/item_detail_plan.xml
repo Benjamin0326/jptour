@@ -7,36 +7,38 @@
     android:elevation="50dip"
     android:background="@color/baseTextColor"
     android:orientation="vertical">
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#D3DCD8"
-
+        android:background="@drawable/plan_modify_unviewed"
         android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="20dp"
 
-                android:text="TITLE"
-                android:textColor="@color/baseTextColor"
-                android:textSize="40dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:text="TITLE"
+            android:textColor="@color/baseTextColor"
+            android:textSize="40dp" />
 
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:background="@android:color/darker_gray" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray" />
 
-            <TextView
-                android:id="@+id/plan_detail_tv"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="30dp"
-                android:text="Test Text\nRecommand Place"
-                android:textColor="@color/baseTextColor"
-                android:textSize="30sp" />
+        <TextView
+            android:id="@+id/plan_detail_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="Test Text\nRecommand Place"
+            android:textColor="@color/baseTextColor"
+            android:textSize="30sp" />
     </LinearLayout>
 </LinearLayout>

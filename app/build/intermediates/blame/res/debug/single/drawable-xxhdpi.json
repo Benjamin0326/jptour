@@ -1,63 +1,39 @@
 [
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\floating_home.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\floating_home.png"
-    },
-    {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main.png"
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_plan_text.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_plan_text.png"
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_plan_btn.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_plan_btn.png"
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_top.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_top.png"
-    },
-    {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_bottom.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_bottom.png"
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_modify_background.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_modify_background.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_detail.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail.png"
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_vertical.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_vertical.png"
-    },
-    {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_rigth.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_rigth.png"
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_compus.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_compus.png"
-    },
-    {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_share_text.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_share_text.png"
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\daypicker_backround.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\daypicker_backround.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_pen.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_pen.png"
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\floating_setting.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\floating_setting.png"
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_share_text.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_share_text.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\finish.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\finish.png"
-    },
-    {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\floating_button.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\floating_button.png"
-    },
-    {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_top.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_top.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\splash.png",
@@ -76,24 +52,16 @@
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail_pen.png"
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\temp.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\temp.png"
-    },
-    {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\day.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\day.png"
-    },
-    {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\floating_mypage.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\floating_mypage.png"
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_modify_viewed.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_modify_viewed.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_middle.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_middle.png"
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main.png"
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\suitcase_shadow.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\suitcase_shadow.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\floating_plan.png",
@@ -108,10 +76,6 @@
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_left.png"
     },
     {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add.png"
-    },
-    {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\add.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\add.png"
     },
@@ -122,14 +86,6 @@
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_detail_eraser.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail_eraser.png"
-    },
-    {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_suitcase.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_suitcase.png"
-    },
-    {
-        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_pencil.png",
@@ -144,7 +100,115 @@
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\tmp.png"
     },
     {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_background.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_modify_unviewed.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_modify_unviewed.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\left_arrow.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\left_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\floating_home.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\floating_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\suitcase.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\suitcase.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_plan_text.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_plan_text.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\splash_backgound.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\splash_backgound.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_top.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_top.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_bottom.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_bottom.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_vertical.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_vertical.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_compus.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_compus.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\floating_setting.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\floating_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\floating_button.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\floating_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add_top.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add_top.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_background.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\temp.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\temp.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\day.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\day.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_share_btn.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main_share_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\floating_mypage.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\floating_mypage.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\right_arrow.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\right_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\main.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_add.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_detail_background.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_detail_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_suitcase.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_suitcase.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_background.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_background.png"
+    },
+    {
         "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plan_main_top.png",
         "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\plan_main_top.png"
+    },
+    {
+        "merged": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\finish_background.png",
+        "source": "C:\\Users\\Seo\\Documents\\GitHub\\jptour\\app\\src\\main\\res\\drawable-xxhdpi\\finish_background.png"
     }
 ]

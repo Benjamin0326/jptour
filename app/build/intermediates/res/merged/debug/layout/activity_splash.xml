@@ -10,10 +10,15 @@
 
     tools:context="com.tour.android.jptour.SplashActivity"
    >
-
+    <TextView
+        android:id="@+id/splash_title"
+        android:text="TITLE NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/splash"
+        android:src="@drawable/splash_backgound"
         android:id="@+id/imageView" />
 </LinearLayout>
